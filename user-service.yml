@@ -1,0 +1,14 @@
+gateway:
+  ip: 192.168.0.2
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: '{cipher}AQBfCWDBKXOtHbPCGSSiAuoyOobkzcARP6Vl0jxdOLjo5kXDdZvIoiBGjn6R9XefMAGG1cxs4qw8AIfKdPjpfvOLlUswn8Xa4rQ6gSkdEplFocMsM2l7ZYweX4MB0INaE8evcoMgN11Yq+Bb0M5VpnQNIWtElO99OFJc5iSgvS6RnyAK4psACRkEwzrEit04bSvkV7sQMMpC/l0cuRHcTdOyV5edU1CwMKNR4dFPAiqOQV6BiH290cUy/OZUtF5gjMGg+4BOpCUf0Uzza6FoJ3kHiroFc5yOICLS+U5zEzZJNX8WazCO6jBBXLxnV7tfo62dy0cInsPGqSHpZRnuTkxXhyusc5OrfngvhvDo2TbVlPpPXgZheVDdQieU1qqSCtw='
+    password: '{cipher}AQAkBR8RPk7If2wHWSivGXRCu6O3YBnzaQlBwgZEtXc03UcBQkZgEm4EctRQV7XI03x1YsjlkJXQ86R6NIATKLP9Bc/qnLC46zby1RvNwR6pRS2OzCig+82UKRO4WQXMnl/P2GcKogm4VNstqeo0L5aXIQFCg4ubDnTfGjcfP+8QyGLgpA5w8JvVZKjBcjEjugaq1qCyGQwTsEqEppG5H+HLeKHuJC/8LS3cbrRqapFq5oEHYubYI0qieRtCUJ+QB7RsWraO0Lq5+Wg/DM/Jl9sKLTpoufq02PbyQYcx4x73IUdafDFeTiEATfKrcNbpoGTYZ1V/n2nY0UJxdNh8HuZFaZUe+fXQ5b/zq07wayGeLOCKxC1RcnjInEn2Nibu6H0='
+
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
+  exception: 
+    order_is_empty: 해당 주문이 존재하지 않습니다.

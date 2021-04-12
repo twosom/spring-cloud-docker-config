@@ -1,0 +1,12 @@
+gateway:
+  ip: 192.168.0.2
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: '{cipher}AQB2IHpFZFBFJTaXVVfQypZU3NqhnkNhNSz3QqfDCK4UbPfcQRiOJlDlsWBgNXkTpjZ7SawLCGqCg5W2NgC08Auvo2cR9rKkBdcEV3sbzmun8lNtHTTiJOQsO4tO1EvQ8wmC2+OgN5NavPoaRRljNWbTK/QuxWsbi8Aa2zCxbWJvYWChXxIANpRBJSsuUTTk+9WFxvIGLXJniNeeG2jFf79s80WBR1tMNY0F3TqBNjsOEbJZ//Zz6H/4c41btrd4aZi1sOpj5XJ8piB8coCGLW+PrSFNBqpzUBXB7l0QZ3pzcyx52VfBzhrOTLcAlEibKMQeu95PK/ttigxHG8BRVpL13muXDIEf4+zdzl6rPGWtLL/VdZmCXW2ne6xSlQzfALg='
+    password: '{cipher}AQBmvPQ2Z+kz6XxuZrDz6bHze6lpoq6cjUbF4Aqc0/IdiTcDe2uydb43mNNOmsh99JZQbFYq/j5fw5+RL2kDI/2VA9bTP2JZZT72s+FFqJfgb2+nFGFpqDCXOjKL3SMxQL2yeRC3jLR2Wq/MNmk7ddUqjFueH8msrzLQDHqfs/qOl7lmu7wmX4nX29gEauq9fZ2OPbfk64HPcwCPJK03IuMY1N4Kki54q1AzdOeQWYfSg+jT3oSuVBJvBs8dB9QjfxKYEdCK7vyzG5s7E589sY40WKlzVC7XMzbsSw4mYE1pnp8fC/dx9cRSSAr7ew5M2PLHg3eLWV9L0miHFjac3oTvuTlPxkLRaTSY36jFarUERM8rOYEGYiGeCZ4K2U3TWLI='
+  jpa:
+    hibernate:
+      ddl-auto: create
+

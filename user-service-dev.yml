@@ -1,0 +1,8 @@
+gateway:
+  ip: 192.168.0.2
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: '{cipher}AQApywuUG+t12vxr7RTKqWA0oa0EirJ4JuVyDE1wTHEpoKCcthP1QMJgS1MOz/8OTw0IZ5nMoEnU48uZSdNl7GQ05dDyoX4jjwa9nEcdyylXTPdNaXn36FNEgXPnrX/giQIvo9EuIFaTFQg1VX30EZZIQaIeStLDVoYiQNM+9TadyNHoatPIGrfKAH7FVRv9OKE6tBNHuQ3fkvzQhf1QcJM7cgFMaeP6MIjHfFntuMY8VE2lQZcraLgwXnkiowma82IEs1QLZhkyAnujHeBFBPFYKwZ0fRV9axaGKOGYMVHU7iaLUYGJbMgSWeBFEZU1JT9p94KE6dnPEz+a6hMBHcDbd7S2fw0r7cOV9zZjTTfbCLYPg2pQzzi6/rhHMhcSdO8='
+    password: '{cipher}AQAllzF/nR+txv+dYukEq4NZhWNyA53LDeLlvvngag3mDfrP7268tUi1ud7xzZf4o4ULXA3bOiGO6oOqsqfuwap557DcYCI0cuuEBIW2O/QggjqKkW7p0Nt1QLDuc6Ft+k3VFlbe9AlhYzB4D6RjqNh8EDUiRw9791JeUSBV+/Pd+mez31m3IEGmtHk5nIvmrZzJb/HSdTobZXiYc7JhdKVSv6r1pK20CU18OZir0JyrupyqpPpIYPYjLNQUPkGEtMnZxzJFpwRZH1yU0JMzyZFLh6DdnKkzYyYhPFrfHOJFB9exxjbl1PNl0AiSV8LZaNFU3ANegBwGzJgMqeELNYwWemFVyn8heInjVcO2BF7dUIefkGFoLqdJngP5L/MUAPk='
