@@ -16,8 +16,8 @@ management:
         include: refresh, health, beans, busrefresh, info, prometheus, metrics
 spring:
   rabbitmq:
-    host: 127.0.0.1
-    # host: rabbitmq
+    # host: 127.0.0.1
+    host: rabbitmq
     port: 5672
     username: guest
     password: guest
