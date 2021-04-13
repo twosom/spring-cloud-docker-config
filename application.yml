@@ -31,4 +31,4 @@ spring:
       probability: 1.0
 
 kafka_docker:
-  address: 172.18.0.101
+  address: 172.18.0.101:9092
