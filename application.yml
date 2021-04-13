@@ -6,7 +6,7 @@ gateway:
   ip: 172.18.0.7
 
 topic:
-  name: very_new_topic
+  name: somang_topic
   orderTopic: orders
 
 management:
