@@ -3,7 +3,7 @@ token:
   secret: '{cipher}AQAUMoJ/Yg4R3RJs9qTtMelq967t0Gn/QypPU0JyWx49u8ox9ng6ZOsCh6opPW7uK4FEkEVZXH066IaP7FHeIpCsM7rVgLMyKI2ZE/Q+hT/dmYAzmirTVTMVGd+6RyPa6n3TdSQOselKl0pbiayJ+1u5TJJDdx4FmkZezCZvTbxc6Kw+knFz3ieYU2FdBKrkWFi4U00AqwDoQ8b2EfdyZ9jqXcnR/BZF9l97UY9B+eqO84b9ITgPs571RRUGTbGVgylZNA/EB8a8HU+MKb01KEsbROM45VkDfrEcWQAj7CN1VJsX0qXSa3ikPhk2p5w1eRPEubuY1cR+LC+1smwX17ZVAy3p9+fOJsoPb2MNA2eQMZiSgNaECtivA9AaDw41CfAuO+JfD26Ot5wPax1uLl3/'
 
 gateway:
-  ip: 192.168.0.2
+  ip: 172.18.0.7
 
 topic:
   name: very_new_topic
