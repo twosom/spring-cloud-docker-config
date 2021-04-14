@@ -6,7 +6,7 @@ gateway:
   ip: 172.18.0.7
 
 topic:
-  name: order_catalog
+  name: changed_topic
   orderTopic: orders
 
 management:
